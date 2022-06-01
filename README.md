@@ -35,7 +35,7 @@ Results for reconstruction method (2):
 ![fig](figures/gap_size_minmax.png)
 
 Results for the area between the bounds:
-![fig](figures/gap_size_std.png)
+![fig](figures/gap_size_area.png)
 
 ### Distribution of missing data
 Running `influence_distribution.m` will start an investigation of the influence of the distribution of the missing data within the signal. For the sake of brevity, only the results for reconstruction method (1) are shown. For the investigations a uniform distribution and a binomial distribution were utilised to randomly generate the missing data and to investigate their influence on the transformation to the frequency domain. The interval PSDs of the reconstructed signal with 4, 8, 16 and 32 missing data are depicted in the following.
