@@ -26,7 +26,7 @@ The area between the bounds for both reconstruction methods for increasing numbe
 ![fig](figures/number_of_md_area.png)
 
 ### Gap size of missing data
-Utilising `influence_gap_ize.m` will display the results for the investigation of the gap size of missing data. To determine the influence of the gap size, different scenarios were evaluated. The gap size $l_g \in \{1,20,40,60\}$ were artificially inserted into the signal. The gaps were first reconstructed with method (1) and then with method (2). The signals and the corresponding transformations are shown below.
+Utilising `influence_gap_size.m` will display the results for the investigation of the gap size of missing data. To determine the influence of the gap size, different scenarios were evaluated. The gap size $l_g \in \{1,20,40,60\}$ were artificially inserted into the signal. The gaps were first reconstructed with method (1) and then with method (2). The signals and the corresponding transformations are shown below.
 
 Results for reconstruction method (1): 
 ![fig](figures/gap_size_std.png)
